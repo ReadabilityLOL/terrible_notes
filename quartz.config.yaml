@@ -18,7 +18,7 @@ configuration:
     typography:
       header: Schibsted Grotesk
       body: Source Sans Pro
-      code: IBM Plex Mono
+      code: Fira Code
     colors:
       lightMode:
         light: "#faf8f8"
@@ -28,8 +28,8 @@ configuration:
         dark: "#2b2b2b"
         secondary: "#284b63"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        highlight: rgba(143, 159, 169, 0.00)
+        textHighlight: "#fff23600"
       darkMode:
         light: "#161618"
         lightgray: "#393639"
@@ -38,8 +38,17 @@ configuration:
         dark: "#ebebec"
         secondary: "#7b97aa"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        highlight: rgba(143, 159, 169, 0.00)
+        textHighlight: "#b3aa0200"
+          #light: "#161618"
+          #lightgray: "#393639"
+          #gray: "#646464"
+          #darkgray: "#d4d4d4"
+          #dark: "#ebebec"
+          #secondary: "#7b97aa"
+          #tertiary: "#84a59d"
+          #highlight: rgba(143, 159, 169, 0.15)
+          #textHighlight: "#b3aa0288"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -164,6 +173,7 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    showTags: true
     layout:
       position: right
       priority: 10
@@ -235,8 +245,6 @@ plugins:
     layout:
       position: footer
       priority: 50
-  - source: "@quartz-community/recent-notes"
-    enabled: false
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
@@ -267,6 +275,22 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
+  - source: "@quartz-community/recent-notes"
+    enabled: true
+    showTags: false
+  - source: github:quartz-community/favicon
+    enabled: true
+    options: {}
+    order: 50
+  - source: github:quartz-community/favicon
+    enabled: true
+  - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
       enableInteraction: true
