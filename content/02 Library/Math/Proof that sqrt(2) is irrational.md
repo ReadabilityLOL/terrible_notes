@@ -1,6 +1,8 @@
-#math #proof
-
-
+---
+tags:
+  - math
+  - proof
+---
 This is a [[proof by contradiction]], so we'll assume first that $\sqrt{2}$ is rational, and then move on from there.
 
 If $\sqrt{2}$ is irrational, it can be expressed as a fraction, with an integer numerator and denominator. Let's call this $\frac{a}{b}$, where $\frac{a}{b}$ is in lowest terms (This will be important later).

@@ -1,7 +1,10 @@
 ---
 title: Let's make Conway's Game of Life in Python!
+tags:
+  - code
+  - tutorial
+  - conway
 ---
-#programming #tutorial
 ## What is Conway's game of life?
 
 Conway's Game of Life is a simulation that runs on an infinite two dimensional grid. Each square in the grid can be in one of two states, dead or alive. On each turn, the cells interact with their neighbors, following a few rules.

@@ -1,7 +1,9 @@
 ---
 title: Let's make a Brainf*** interpreter!
+tags:
+  - code
+  - tutorial
 ---
-#programming #tutorial 
 ## What is Brainf***?
 
 Brainf*** is a esoteric, [[Turing Complete|Turing complete]] programming language involving only 8 commands and two lists. Because it is Turing complete, it is theoretically possible to compute any task doable by a computer in Brainf***, though it is significantly harder to do tasks here than in say, Python or C. It was initially designed with the goal of making the smallest possible compiler, which should make it a pretty simple project to implement.

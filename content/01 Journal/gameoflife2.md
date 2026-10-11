@@ -1,7 +1,10 @@
 ---
 title: Let's make a web ui for Conway's game of life!
+tags:
+  - code
+  - tutorial
+  - conway
 ---
-#programming #tutorial
 ## Intro
 
 This is a sequel to my [[gameoflife|previous post]]. I've decided that I may as well try to make the game of life look good. If you're following along, I would suggest going back to the first post.

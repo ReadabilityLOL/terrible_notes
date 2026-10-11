@@ -1,7 +1,10 @@
 ---
 title: Let's make our UI for the Game of Life look better!
+tags:
+  - code
+  - conway
+  - tutorial
 ---
-#programming #tutorial #conway
 ## Intro
 
 We've basically finished the Conway's Game of Life project. All we need to do now is make it look better, with some nicer css.
