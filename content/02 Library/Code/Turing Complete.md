@@ -1,6 +1,7 @@
 ---
 tags:
   - code
+publish: "true"
 ---
 [Wikipedia Link](https://en.wikipedia.org/wiki/Turing_completeness)
 

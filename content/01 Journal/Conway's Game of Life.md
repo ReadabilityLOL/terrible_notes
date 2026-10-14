@@ -2,6 +2,7 @@
 tags:
   - code
   - conway
+publish: "true"
 ---
 ## Here are my tutorials on making Conway's Game of Life:
 

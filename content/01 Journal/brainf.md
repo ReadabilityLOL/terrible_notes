@@ -3,6 +3,7 @@ title: Let's make a Brainf*** interpreter!
 tags:
   - code
   - tutorial
+publish: "true"
 ---
 ## What is Brainf***?
 

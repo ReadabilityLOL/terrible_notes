@@ -3,6 +3,7 @@ title: In Which I Get a Windows XP Machine
 created: 2025-08-01
 tags:
   - "#windows"
+publish: "true"
 ---
 ## Intro
 

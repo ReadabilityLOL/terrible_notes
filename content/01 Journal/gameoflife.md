@@ -4,6 +4,7 @@ tags:
   - code
   - tutorial
   - conway
+publish: "true"
 ---
 ## What is Conway's game of life?
 

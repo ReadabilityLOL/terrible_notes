@@ -3,6 +3,7 @@ title: A Little Bit of Procrastination
 created: 2025-09-23
 tags:
   - ramblings
+publish: "true"
 ---
 ## Begin anecdote
 

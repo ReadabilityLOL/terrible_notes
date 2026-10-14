@@ -4,6 +4,7 @@ tags:
   - code
   - tutorial
   - conway
+publish: "true"
 ---
 ## Intro
 

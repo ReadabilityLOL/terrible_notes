@@ -2,18 +2,33 @@
 
 // put your custom CSS here!
 
-body{
-    padding:0;
+hr{
+    background:#8A2BE2;
+}
+
+#quartz-root, .sidebar{
+    /*background: #2c3e50;*/
+    background: #1C1C1C;
+}
+
+.explorer, .recent-notes, .toc{
+    border: 2px solid #8A2BE2;
+    border-radius: 2px;
+    padding: 5%;
+}
+
+.explorer-content, .explorer,.graph{
+    background: #1C1C1C;
 }
 
 .left.sidebar {
     padding-left: 0px;
     margin-left: 0px;
-    border-right: 2px solid #FF073A;
+    border-right: 2px solid #8A2BE2;
 }
 
 .right.sidebar {
-    border-left: 2px solid #FF073A;
+    border-left: 2px solid #8A2BE2;
 }
 a{
     color:#18FF8C;
@@ -24,26 +39,26 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .graph{
-    border: 2px solid #FF073A;
+    border: 2px solid #8A2BE2;
     padding:5%;
     border-radius: 2px;
 }
 
-blockquote{
+#quartz-root{
     padding-left: 2%;
 }
 
-.scanlines {
+#quartz-root{
     position: relative;
 }
-.scanlines:before,
-.scanlines:after {
+#quartz-root::before,
+#quartz-root::after {
     display: block;
     pointer-events: none;
     content: "";
     position: absolute;
 }
-.scanlines:before {
+#quartz-root::before {
     width: 100%;
     height: 2px;
     z-index: 2147483649;
@@ -51,16 +66,17 @@ blockquote{
     opacity: 0.75;
     /*animation: scanline 6s linear infinite;*/
 }
-.scanlines:after {
+#quartz-root::after {
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 2147483648;
+    /*rgba(0, 0, 0, 0.1) 51% */
     background: linear-gradient(
         to bottom,
         transparent 50%,
-        rgba(0, 0, 0, 0.1) 51%
+        rgba(0, 0, 0, 0.15) 51%
     );
     background-size: 100% 4px;
     /*animation: scanlines 5s steps(60) infinite;*/

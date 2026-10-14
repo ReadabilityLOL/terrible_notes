@@ -2,6 +2,7 @@
 title: In Which I Get a Typewriter
 created: 2026-09-29
 tags:
+publish: "true"
 ---
 ## Intro
 

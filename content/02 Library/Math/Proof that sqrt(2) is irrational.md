@@ -2,6 +2,7 @@
 tags:
   - math
   - proof
+publish: "true"
 ---
 This is a [[proof by contradiction]], so we'll assume first that $\sqrt{2}$ is rational, and then move on from there.
 

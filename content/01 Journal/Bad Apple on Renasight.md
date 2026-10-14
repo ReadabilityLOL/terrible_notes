@@ -2,6 +2,7 @@
 title: In which I play Bad Apple on a Renasight advertisement device
 created: 2025-11-30
 tags:
+publish: "true"
 ---
 ## Intro
 I recently got this device from Renasight, which appears to be some kidney screening service or something. I wasn't really interested in the product, my kidneys are fine, thank you very much, but the device itself is pretty interesting. It's basically just an mp4 player wrapped in advertisements, and I wanted to see how easy it was to say, change the video inside to a different mp4. It turned out to be disappointingly easy. The device had a USB-C port on it, and I just plugged it into my computer and added the mp4 files I wanted.

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: glitched.tech
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -18,7 +18,7 @@ configuration:
     typography:
       header: Schibsted Grotesk
       body: Source Sans Pro
-      code: Fira Code
+      code: IBM Plex Mono
     colors:
       lightMode:
         light: "#faf8f8"
@@ -128,7 +128,7 @@ plugins:
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/unlisted-pages"
     enabled: true
     options: {}
@@ -175,6 +175,11 @@ plugins:
   - source: "@quartz-community/graph"
     enabled: true
     showTags: true
+    options:
+      localGraph:
+        depth: 2
+      globalGraph:
+        repelForce: 1
     layout:
       position: right
       priority: 10
@@ -275,29 +280,20 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
-    options:
-      enableInteraction: true
-      darkMode: auto
-      exportPadding: 20
-    order: 50
   - source: "@quartz-community/recent-notes"
     enabled: true
-    showTags: false
-  - source: github:quartz-community/favicon
-    enabled: true
-    options: {}
-    order: 50
-  - source: github:quartz-community/favicon
-    enabled: true
-  - source: github:quartz-community/obsidian-plugin-excalidraw
+    options:
+      title: "Recent stuffs"
+      showTags: false
+    layout:
+      position: left
+
+  - source: "github:quartz-community/obsidian-plugin-excalidraw"
     enabled: true
     options:
+      darkMode: "light"
       enableInteraction: true
-      darkMode: auto
       exportPadding: 20
-    order: 50
 layout:
   groups:
     toolbar:

@@ -1,6 +1,7 @@
 ---
 title: Aphantasia
 created: 2026-07-14
+publish: "true"
 ---
 ## Intro
 

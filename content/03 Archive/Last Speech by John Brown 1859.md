@@ -1,13 +1,14 @@
 ---
-title: "Last Speech by John Brown 1859"
-source: "https://www.marxists.org/archive/brown-john/1859/last-speech.htm"
+title: Last Speech by John Brown 1859
+source: https://www.marxists.org/archive/brown-john/1859/last-speech.htm
 author:
   - "[[John Brown]]"
 published:
 created: 2026-10-11
 description:
 tags:
-  - "clippings"
+  - clippings
+publish: "true"
 ---
 John Brown 1859
 
